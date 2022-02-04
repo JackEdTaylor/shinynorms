@@ -3,6 +3,9 @@ library(shinyjs)
 library(shinycssloaders)
 
 library(ordinal)
+library(RhpcBLASctl)
+blas_set_num_threads(1)
+
 library(readr)
 library(dplyr)
 library(openxlsx)
