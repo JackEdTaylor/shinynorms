@@ -3,8 +3,6 @@ library(shinyjs)
 library(shinycssloaders)
 
 library(ordinal)
-library(RhpcBLASctl)
-blas_set_num_threads(1)
 
 library(readr)
 library(dplyr)
@@ -12,6 +10,11 @@ library(openxlsx)
 
 library(ggplot2)
 theme_set(theme_bw(base_size = 20))
+
+# Fitting models can sometimes make use of multiple cores by default because of the BLAS routines the method calls. Depending on setup, this could lead to the app demanding high CPU usage for each running session. Uncomment the code below to limit the number of cores available to BLAS.
+
+# library(RhpcBLASctl)
+# blas_set_num_threads(1)
 
 ui <- navbarPage(
 
