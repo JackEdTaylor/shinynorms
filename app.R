@@ -136,7 +136,7 @@ ui <- navbarPage(
                 8, offset=1,
                 br(),
                 br(),
-                fluidRow(column(6, selectInput("link", "Link Function (Latent Distribution)", c("logit (Logistic)"="logit", "probit (Normal)"="probit", "cloglog (Complementary Log-Log)"="cloglog", "loglog (Log-Log)"="loglog", "cauchit (Cauchy)"="cauchit"), width="90%"), align = "center")),
+                fluidRow(column(6, selectInput("link", "Link Function (Latent Distribution)", c("probit (Normal)"="probit", "logit (Logistic)"="logit", "cloglog (Complementary Log-Log)"="cloglog", "loglog (Log-Log)"="loglog", "cauchit (Cauchy)"="cauchit"), width="90%"), align = "center")),
                 fluidRow(column(6, plotOutput("link_distribution_plot", height = "300px"), style = "align:center;")),
                 br(),
                 fluidRow(column(6, br(), actionButton("fit_model", "Fit Model", icon=icon("calculator"), style="font-size:135%"), align = "center")),
