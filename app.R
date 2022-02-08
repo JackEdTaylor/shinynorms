@@ -422,7 +422,10 @@ server <- function(input, output, session) {
             formula = f,
             data = formatted_trials(),
             link = input$link,
-            control = list(innerCtrl="warnOnly", checkRanef="warn"),
+            control = list(
+              innerCtrl="warnOnly",
+              checkRanef="warn"
+            ),
             convergence = "warn"
           )
         }, error = function(e) {
@@ -546,8 +549,8 @@ server <- function(input, output, session) {
         if ("latent_M" %in% colnames(item_norms())) {
             item_norms() %>%
                 ggplot(aes(latent_M, M)) +
-                geom_smooth(method = "loess", se=FALSE) +
                 geom_point(size=1.5) +
+                geom_smooth(method = "loess", se=FALSE) +
                 labs(x = "Item Random Effect", y = "Raw Mean")
         } else {
             NULL
@@ -569,8 +572,8 @@ server <- function(input, output, session) {
         if ("latent_M" %in% colnames(subj_norms())) {
             subj_norms() %>%
                 ggplot(aes(latent_M, M)) +
-                geom_smooth(method = "loess", se=FALSE) +
                 geom_point(size=1.5) +
+                geom_smooth(method = "loess", se=FALSE) +
                 labs(x = "Participant Random Effect", y = "Raw Mean")
         } else {
             NULL
