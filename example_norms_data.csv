@@ -1,0 +1,59 @@
+participant,item,rating
+1,custard cream,9
+1,oreo,7
+1,digestive,2
+1,malted milk,2
+1,hobnob,2
+1,fruit shortcake,2
+1,rich tea,1
+2,custard cream,8
+2,oreo,8
+2,digestive,3
+2,malted milk,2
+2,jammie dodger,1
+2,hobnob,2
+2,fruit shortcake,2
+2,rich tea,1
+3,custard cream,9
+3,oreo,9
+3,digestive,4
+3,malted milk,3
+3,jammie dodger,2
+3,hobnob,3
+3,fruit shortcake,4
+3,rich tea,3
+4,custard cream,8
+4,oreo,9
+4,digestive,4
+4,malted milk,3
+4,jammie dodger,5
+4,hobnob,4
+4,fruit shortcake,6
+4,rich tea,5
+5,custard cream,5
+5,oreo,4
+5,digestive,1
+5,malted milk,1
+6,oreo,7
+6,digestive,2
+6,malted milk,3
+6,jammie dodger,2
+6,hobnob,3
+6,fruit shortcake,4
+6,rich tea,1
+7,custard cream,6
+7,oreo,7
+7,digestive,4
+7,malted milk,6
+7,jammie dodger,3
+7,hobnob,4
+7,fruit shortcake,3
+7,rich tea,2
+7,custard cream,6
+7,oreo,5
+7,digestive,2
+7,malted milk,1
+7,jammie dodger,2
+7,hobnob,3
+7,fruit shortcake,2
+7,rich tea,1
