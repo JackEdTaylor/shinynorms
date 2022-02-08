@@ -531,12 +531,14 @@ server <- function(input, output, session) {
   
   output$download_item_norms <- downloadHandler(
     filename = function() {paste("item_norms", paste(input$rating_col, ".csv", sep=""), sep="_")},
-    content = function(con) {write_csv(item_norms(), file=con)}
+    content = function(con) {write.csv(item_norms(), file=con, row.names=FALSE)},
+    contentType = "text/csv"
   )
   
   output$download_participant_norms <- downloadHandler(
     filename = function() {paste("participant_norms", paste(input$rating_col, ".csv", sep=""), sep="_")},
-    content = function(con) {write_csv(subj_norms(), file=con)}
+    content = function(con) {write.csv(subj_norms(), file=con, row.names=FALSE)},
+    contentType = "text/csv"
   )
   
   output$m_thresh_locs_plot <- renderPlot({
