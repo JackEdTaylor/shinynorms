@@ -487,7 +487,7 @@ server <- function(input, output, session) {
       summarise(
         N = n(),
         M = mean(as.numeric(!!dplyr::sym(input$rating_col)), na.rm=TRUE),
-        SD = mean(as.numeric(!!dplyr::sym(input$rating_col)), na.rm=TRUE)
+        SD = sd(as.numeric(!!dplyr::sym(input$rating_col)), na.rm=TRUE)
       )
     
     if (mod_ever_fit()) {
@@ -511,7 +511,7 @@ server <- function(input, output, session) {
       summarise(
         N = n(),
         M = mean(as.numeric(!!dplyr::sym(input$rating_col)), na.rm=TRUE),
-        SD = mean(as.numeric(!!dplyr::sym(input$rating_col)), na.rm=TRUE)
+        SD = sd(as.numeric(!!dplyr::sym(input$rating_col)), na.rm=TRUE)
       )
     
     if (mod_ever_fit()) {
