@@ -46,8 +46,10 @@ plot_thresh <- function(m) {
     rating = cut_labs
   )
   
+  abs_dens_lim <- max(abs(c(thresh_locs, 4))) + 1
+  
   dens_tbl <- tibble(
-    x = seq(-5, 5, 0.001),
+    x = seq(-abs_dens_lim, abs_dens_lim, 0.001),
     d = dfun(x, 0, 1)
   )
   
