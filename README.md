@@ -11,7 +11,13 @@ The app is currently hosted online at the following urls:
 * [shiny.psy.gla.ac.uk/jackt/shinynorms](https://shiny.psy.gla.ac.uk/jackt/shinynorms) (University of Glasgow Psychology Shiny server)
 * [jackt.shinyapps.io/shinynorms](https://jackt.shinyapps.io/shinynorms/) (total monthly usage is limited; timeout after 30 minutes)
 
-The app can also be run locally by downloading the repository and running `app.R`.
+You can also run the app locally in R with:
+
+```
+shiny::runGitHub(repo="shinynorms", username="JackEdTaylor")
+```
+
+Finally, you can download the repository and run `app.R`.
 
 ## Dependencies
 
