@@ -2,7 +2,7 @@
 
 A Shiny app for norming items and/or participants on Likert ratings using cumulative link mixed effects models (CLMMs).
 
-This app accompanies our preprint ([https://psyarxiv.com/3vgwk/](https://psyarxiv.com/3vgwk/)) on using CLMMs to analyse the results of norming studies. The app is designed for researchers who are unfamiliar with R but wish to compare traditional norming results to those derived from CLMMs.
+This app accompanies our paper ([https://doi.org/10.3758/s13428-022-01814-7](https://doi.org/10.3758/s13428-022-01814-7)) on using CLMMs to analyse the results of norming studies. The app is designed for researchers who are unfamiliar with R but wish to compare traditional norming results to those derived from CLMMs.
 
 ## How to use
 
