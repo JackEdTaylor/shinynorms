@@ -10,9 +10,9 @@ This app accompanies our paper ([https://doi.org/10.3758/s13428-022-01814-7](htt
 
 The app is currently hosted online at the following urls:
 
-* [rstudio-connect.psy.gla.ac.uk/shinynorms/](https://rstudio-connect.psy.gla.ac.uk/shinynorms) (University of Glasgow RStudio Connect server)
+* [rstudio-connect.psy.gla.ac.uk/shinynorms](https://rstudio-connect.psy.gla.ac.uk/shinynorms) (University of Glasgow RStudio Connect server)
 * [shiny.psy.gla.ac.uk/jackt/shinynorms](https://shiny.psy.gla.ac.uk/jackt/shinynorms) (University of Glasgow Psychology Shiny server)
-* [jackt.shinyapps.io/shinynorms](https://jackt.shinyapps.io/shinynorms/) (total monthly usage is limited; timeout after 30 minutes)
+* [jackt.shinyapps.io/shinynorms](https://jackt.shinyapps.io/shinynorms) (total monthly usage is limited; timeout after 30 minutes)
 
 ### Running Locally
 
